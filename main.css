@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(239, 239, 129), rgb(214, 84, 214),rgb(69, 134, 226));
+}
+h1{
+    text-align: center;
+}
+.board{
+    height: 600px;
+    width: 60%;
+    margin-left: 330px;
+}
+.sqaure{
+    height: 170px;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-size: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.restart{
+    height: 35px;
+    width: 5%;
+    margin-left: 700px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+.results{
+    font-size: 45px;
+    margin-left: 40px;
+}
